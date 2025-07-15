@@ -1,0 +1,17 @@
+# Core libraries
+numpy
+opencv-python
+tqdm
+
+# For YOLOv8 training
+ultralytics
+
+# For Mask R-CNN training (Detectron2)
+torch
+torchvision
+torchaudio
+git+https://github.com/facebookresearch/detectron2.git
+
+# Optional but helpful
+matplotlib
+seaborn
