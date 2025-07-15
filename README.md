@@ -18,9 +18,9 @@ A comprehensive deep learning-based solution to detect breast cancer from mammog
 * [Annotation Formats](#annotation-formats)
 * [Model Training and Evaluation](#model-training-and-evaluation)
 * [Results and Metrics](#results-and-metrics)
+* [Output Samples](#output-samples)
 * [Future Enhancements](#future-enhancements)
 * [How to Run](#how-to-run)
-* [License](#license)
 
 ---
 
@@ -214,6 +214,19 @@ Implemented using OpenCV:
 
 ---
 
+## 🖼️ Output Samples
+
+### YOLOv8 Detection Output
+<img width="769" height="804" alt="Screenshot 2025-07-15 094714" src="https://github.com/user-attachments/assets/9ff56302-50fb-41c1-a9c6-5d313ef3c9eb" />
+
+
+### Mask R-CNN Segmentation Output
+
+<img width="569" height="600" alt="Screenshot 2025-07-15 094800" src="https://github.com/user-attachments/assets/cd99c986-5ffa-4844-9cbb-133da2ced4b9" />
+
+
+---
+
 ## 🔮 Future Enhancements
 
 * Add support for multi-class tumor classification (e.g., calcifications)
@@ -267,4 +280,5 @@ model.train(data='data.yaml', epochs=50)
 Refer to `main.ipynb` for detailed training steps.
 
 ---
+
 
